@@ -33,7 +33,7 @@
     </div>
     <div class="form-group">
         <label for="Hinh">Hình: </label>
-        <input type="text" id="Hinh" name="Hinh" class="form-control" value="<?php echo htmlspecialchars($sinhVien->Hinh, ENT_QUOTES, 'UTF-8'); ?>" placeholder="/Content/images/sv.jpg">
+        <input type="file" id="Hinh" name="Hinh" class="form-control" accept="image/*">
     </div>
     <div class="form-group">
         <label for="MaNganh">Ngành Học: </label>
